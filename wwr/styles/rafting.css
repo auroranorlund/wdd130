@@ -1,0 +1,66 @@
+:root {
+    --primary-color: #72A1E5;
+    --primary-color-transparent: #72a2e5c4;
+    --secondary-color: #226CE0;
+    --secondary-color-transparent: #226be0a1;
+    --accent-1: #1A936F;
+    --accent-2: #0A122A;
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: "Josefin Sans", sans-serif;
+    color: var(--accent-1)
+}
+h1 {
+    font-family: "Josefin Sans", sans-serif;
+    color: white
+}
+main {
+    max-width: 1200px;
+}
+p {
+    font-family: "Playfair", serif;
+    color: var(--accent-2)
+}
+a {
+    text-decoration: none;
+}
+.hero div {
+    margin: 10px auto;
+    position: relative;
+}
+.hero img {
+    display:block;
+    width:100%;
+    height:auto;
+    object-fit: cover;
+}
+.hero h1 {
+    position: absolute;
+    top:300px;
+    left:500px;
+    background-color: var(--primary-color-transparent);
+}
+.mission {
+    position: absolute;
+    top:350px;
+    left:200px;
+    background-color: var(--secondary-color-transparent);
+}
+.mission img {
+    width:50%;
+    height:auto;
+    float:right;
+}
+footer img {
+    width:5%;
+    height:auto;
+}
+#logo {
+    width: 15%;
+    height:auto;
+}
+.adventure img {
+    width:50%;
+    height:auto;
+}
