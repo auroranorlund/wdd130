@@ -3,7 +3,7 @@
     --primary-color-transparent: #72a2e5c4;
     --secondary-color: #226CE0;
     --secondary-color-transparent: #226be0a1;
-    --accent-1: #1A936F;
+    --accent-1: #168362;
     --accent-2: #0A122A;
     --accent-2-transparent: #0a122ad6;
 }
@@ -14,7 +14,7 @@ h2, h3, h4, h5, h6 {
 }
 h1 {
     font-family: "Josefin Sans", sans-serif;
-    color: white
+    color: var(--accent-2);
 }
 main {
     max-width: 940px;
