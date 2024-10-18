@@ -217,7 +217,7 @@ iframe {
     width: 940px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1 fr 5fr;
+    grid-template-rows: 1fr 5fr;
     column-gap:50px;
 }
 .team h2 {
@@ -287,4 +287,8 @@ iframe {
     width: 20px;
     height: 20px;
     vertical-align: bottom;
+}
+#contacth1 {
+    font-size: 3rem;
+    text-align: center;
 }
