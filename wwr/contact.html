@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact us page for rafting assignment.">
+    <meta name="author" content="Aurora Norlund">
+    <title>Whitewater Rafting Co. Contact Us</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="images/rafting-logo.png" alt="Rafting logo" id="logo">
+        <nav class="navigation">
+            <a href="index.html">HOME</a>
+            <a href="about.html">ABOUT US</a>
+            <a href="trips.html">TRIPS</a>
+            <a href="contact.html">CONTACT US</a>
+        </nav>
+    </header>
+    <main>
+        <section class="companyinfo">
+            <h2>Company Information</h2>
+            <p><b>Address:</b> 1234 Adventure Street, Parkdale, Colorado <br>
+            <b>Phone:</b> (719)-8765-432<br>
+            <b>Email:</b> info@whitewaterraftingco.com
+            </p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d24265.78693543968!2d-105.43376172971755!3d38.49132642447535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzjCsDI5JzQ3LjQiTiAxMDXCsDI0JzQ0LjQiVw!5e0!3m2!1sen!2sus!4v1729145647946!5m2!1sen!2sus" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+        <section class="team">
+            <h2>Meet Our Team!</h2>
+            <figure>
+                <img src="images/employee1.jpg" alt="Jessica's profile picture">
+                <figcaption>Founder of Whitewater Rafting Co., Jessica has over 10 years of experience with whitewater rafting. She also enjoys hiking and taking her dog Fido out on walks.</figcaption>
+            </figure>
+            <figure>
+                <img src="images/employee2.jpg" alt="Justin's profile picture">
+                <figcaption>Co-founder of Whitewater Rafting Co., Justin is an experienced adventurer with over 7 years of experience rafting. He also enjoys playing beach volleyball and skiing.</figcaption>
+            </figure>
+            <figure>
+                <img src="images/employee3.jpg" alt="Bradley's profile picture">
+                <figcaption>Head Adventurer Bradley has over 6 years of experience whitewater rafting. He also enjoys ziplining and horseback riding.</figcaption>
+            </figure>
+        </section>
+        <section class="contactform">
+            <h2>Contact Us</h2>
+            <form>
+                    <div class="form-item">
+                    <label for="fullname">Full Name: <input type="text" id="fullname" name="fullname"></label>
+                    </div>
+                    <div class="form-item">
+                    <label for="useremail">Email: <input type="email" id="useremail" name="useremail"></label>
+                    </div>
+                    <div>
+                        <p>Reason for contacting:</p>
+                        <input type="radio" id="generalinquiry" name="purpose" value="General Inquiry">
+                        <label for="generalinquiry">General Inquiry</label><br>
+                        <input type="radio" id="reservationquestion" name="purpose" value="Reservation Question">
+                        <label for="reservationquestion">Reservation Question</label><br>
+                        <input type="radio" id="websitesuggestion" name="purpose" value="Website Suggestion">
+                        <label for="websitesuggestion">Website Suggestion</label>
+                    </div>
+                    <label for="feedback">Message</label>
+                    <textarea id="feedback" name="feedback" rows="4" placeholder="Type your message here"></textarea>
+                    <div>
+                        <input type="checkbox" id="newsletter" name="newsletter">
+                        <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+                        </div>
+                <button type="submit">Submit Poll</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy;2024, Whitewater Rafting, Aurora Norlund</p>
+        <nav class="sociallinks">
+            <a href="https://facebook.com">
+                <img src="images/facebook.svg" alt="Facebook">
+            </a>
+            <a href="https://twitter.com">
+                <img src="images/twitter.svg" alt="Twitter">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.svg" alt="Instagram">
+            </a>
+        </nav>
+    </footer>
+</body>
+</html>
